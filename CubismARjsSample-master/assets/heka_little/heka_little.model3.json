@@ -1,12 +1,12 @@
 {
 	"Version": 3,
 	"FileReferences": {
-		"Moc": "へーかlittle.moc3",
+		"Moc": "heka_little.moc3",
 		"Textures": [
-			"へーかlittle.512/texture_00.png"
+			"heka_little.512/texture_00.png"
 		],
-		"Physics": "へーかlittle.physics3.json",
-		"DisplayInfo": "へーかlittle.cdi3.json"
+		"Physics": "heka_little.physics3.json",
+		"DisplayInfo": "heka_little.cdi3.json"
 	},
 	"Groups": [
 		{
