@@ -24,7 +24,7 @@ window.onload = function () {
 			var animation = LIVE2DCUBISMFRAMEWORK.Animation;
 			var override = LIVE2DCUBISMFRAMEWORK.BuiltinAnimationBlenders.OVERRIDE;
 			motions.push(animation.fromMotion3Json(resources['motion2'].data));
-			motions.push(animation.fromMotion3Json(resources['motion3'].data));
+//			motions.push(animation.fromMotion3Json(resources['motion3'].data));
 //			motions.push(animation.fromMotion3Json(resources['motion4'].data));
 //			motions.push(animation.fromMotion3Json(resources['motion5'].data));
 //			motions.push(animation.fromMotion3Json(resources['motion6'].data));
@@ -82,8 +82,8 @@ window.onload = function () {
 		var p1 = new Promise(function (resolve, reject) {
 			var loader = new PIXI.loaders.Loader();
 			loader.add('model3', "assets/heka_little/heka_little.model3.json", xhrType);
-			loader.add('motion1', "assets/heka_little/idle.motion3.json", xhrType);
-			loader.add('motion2', "assets/heka_little/tatch.motion3.json", xhrType);
+			loader.add('motion1', "assets/heka_little/tatch.motion3.json", xhrType);
+			loader.add('motion2', "assets/heka_little/idle.motion3.json", xhrType);
 //			loader.add('motion3', "assets/Koharu/Koharu_03.motion3.json", xhrType);
 //			loader.add('motion4', "assets/Koharu/Koharu_04.motion3.json", xhrType);
 //			loader.add('motion5', "assets/Koharu/Koharu_05.motion3.json", xhrType);
